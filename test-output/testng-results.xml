@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-08T12:19:43 IST" name="Default suite" finished-at="2021-02-08T12:19:48 IST" duration-ms="5399">
+  <suite started-at="2023-01-26T03:33:10 EST" name="Default suite" finished-at="2023-01-26T03:33:14 EST" duration-ms="3420">
     <groups>
     </groups>
-    <test started-at="2021-02-08T12:19:43 IST" name="Default test" finished-at="2021-02-08T12:19:48 IST" duration-ms="5399">
+    <test started-at="2023-01-26T03:33:10 EST" name="Default test" finished-at="2023-01-26T03:33:14 EST" duration-ms="3420">
       <class name="com.artoftesting.test.SauceDemoLoginTest">
-        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:com.artoftesting.test.SauceDemoLoginTest@5cdec700]" started-at="2021-02-08T12:19:30 IST" name="suiteSetup" finished-at="2021-02-08T12:19:43 IST" duration-ms="12777" status="PASS">
+        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:com.artoftesting.test.SauceDemoLoginTest@265adfad]" started-at="2023-01-26T03:33:08 EST" name="suiteSetup" finished-at="2023-01-26T03:33:10 EST" duration-ms="2080" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteSetup -->
-        <test-method is-config="true" signature="loadBaseUrl(java.lang.reflect.Method)[pri:0, instance:com.artoftesting.test.SauceDemoLoginTest@5cdec700]" started-at="2021-02-08T12:19:43 IST" name="loadBaseUrl" finished-at="2021-02-08T12:19:44 IST" duration-ms="663" status="PASS">
+        <test-method is-config="true" signature="loadBaseUrl(java.lang.reflect.Method)[pri:0, instance:com.artoftesting.test.SauceDemoLoginTest@265adfad]" started-at="2023-01-26T03:33:10 EST" name="loadBaseUrl" finished-at="2023-01-26T03:33:11 EST" duration-ms="825" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -22,22 +22,22 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadBaseUrl -->
-        <test-method signature="loginTest()[pri:0, instance:com.artoftesting.test.SauceDemoLoginTest@5cdec700]" started-at="2021-02-08T12:19:44 IST" name="loginTest" finished-at="2021-02-08T12:19:45 IST" duration-ms="1398" status="PASS">
+        <test-method signature="loginTest()[pri:0, instance:com.artoftesting.test.SauceDemoLoginTest@265adfad]" started-at="2023-01-26T03:33:11 EST" name="loginTest" finished-at="2023-01-26T03:33:11 EST" duration-ms="308" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="screenshotAndDeleteCookies(org.testng.ITestResult)[pri:0, instance:com.artoftesting.test.SauceDemoLoginTest@5cdec700]" started-at="2021-02-08T12:19:45 IST" name="screenshotAndDeleteCookies" finished-at="2021-02-08T12:19:45 IST" duration-ms="21" status="PASS">
+        <test-method is-config="true" signature="screenshotAndDeleteCookies(org.testng.ITestResult)[pri:0, instance:com.artoftesting.test.SauceDemoLoginTest@265adfad]" started-at="2023-01-26T03:33:11 EST" name="screenshotAndDeleteCookies" finished-at="2023-01-26T03:33:11 EST" duration-ms="12" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=loginTest status=SUCCESS method=SauceDemoLoginTest.loginTest()[pri:0, instance:com.artoftesting.test.SauceDemoLoginTest@5cdec700] output={null}]]]>
+                <![CDATA[[TestResult name=loginTest status=SUCCESS method=SauceDemoLoginTest.loginTest()[pri:0, instance:com.artoftesting.test.SauceDemoLoginTest@265adfad] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotAndDeleteCookies -->
-        <test-method is-config="true" signature="loadBaseUrl(java.lang.reflect.Method)[pri:0, instance:com.artoftesting.test.SauceDemoLoginTest@5cdec700]" started-at="2021-02-08T12:19:48 IST" name="loadBaseUrl" finished-at="2021-02-08T12:19:48 IST" duration-ms="61" status="PASS">
+        <test-method is-config="true" signature="loadBaseUrl(java.lang.reflect.Method)[pri:0, instance:com.artoftesting.test.SauceDemoLoginTest@265adfad]" started-at="2023-01-26T03:33:14 EST" name="loadBaseUrl" finished-at="2023-01-26T03:33:14 EST" duration-ms="89" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -48,7 +48,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadBaseUrl -->
-        <test-method signature="tempTest(java.lang.String, java.lang.String)[pri:0, instance:com.artoftesting.test.SauceDemoLoginTest@5cdec700]" started-at="2021-02-08T12:19:48 IST" name="tempTest" data-provider="tempTestData" finished-at="2021-02-08T12:19:48 IST" duration-ms="3" status="PASS">
+        <test-method signature="tempTest(java.lang.String,java.lang.String)[pri:0, instance:com.artoftesting.test.SauceDemoLoginTest@265adfad]" started-at="2023-01-26T03:33:14 EST" name="tempTest" data-provider="tempTestData" finished-at="2023-01-26T03:33:14 EST" duration-ms="7" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -64,18 +64,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tempTest -->
-        <test-method is-config="true" signature="screenshotAndDeleteCookies(org.testng.ITestResult)[pri:0, instance:com.artoftesting.test.SauceDemoLoginTest@5cdec700]" started-at="2021-02-08T12:19:48 IST" name="screenshotAndDeleteCookies" finished-at="2021-02-08T12:19:48 IST" duration-ms="16" status="PASS">
+        <test-method is-config="true" signature="screenshotAndDeleteCookies(org.testng.ITestResult)[pri:0, instance:com.artoftesting.test.SauceDemoLoginTest@265adfad]" started-at="2023-01-26T03:33:14 EST" name="screenshotAndDeleteCookies" finished-at="2023-01-26T03:33:14 EST" duration-ms="16" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=tempTest status=SUCCESS method=SauceDemoLoginTest.tempTest(java.lang.String, java.lang.String)[pri:0, instance:com.artoftesting.test.SauceDemoLoginTest@5cdec700] output={null}]]]>
+                <![CDATA[[TestResult name=tempTest status=SUCCESS method=SauceDemoLoginTest.tempTest(java.lang.String,java.lang.String)[pri:0, instance:com.artoftesting.test.SauceDemoLoginTest@265adfad] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotAndDeleteCookies -->
-        <test-method is-config="true" signature="loadBaseUrl(java.lang.reflect.Method)[pri:0, instance:com.artoftesting.test.SauceDemoLoginTest@5cdec700]" started-at="2021-02-08T12:19:48 IST" name="loadBaseUrl" finished-at="2021-02-08T12:19:48 IST" duration-ms="83" status="PASS">
+        <test-method is-config="true" signature="loadBaseUrl(java.lang.reflect.Method)[pri:0, instance:com.artoftesting.test.SauceDemoLoginTest@265adfad]" started-at="2023-01-26T03:33:14 EST" name="loadBaseUrl" finished-at="2023-01-26T03:33:14 EST" duration-ms="73" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -86,7 +86,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadBaseUrl -->
-        <test-method signature="tempTest(java.lang.String, java.lang.String)[pri:0, instance:com.artoftesting.test.SauceDemoLoginTest@5cdec700]" started-at="2021-02-08T12:19:48 IST" name="tempTest" data-provider="tempTestData" finished-at="2021-02-08T12:19:48 IST" duration-ms="2" status="PASS">
+        <test-method signature="tempTest(java.lang.String,java.lang.String)[pri:0, instance:com.artoftesting.test.SauceDemoLoginTest@265adfad]" started-at="2023-01-26T03:33:14 EST" name="tempTest" data-provider="tempTestData" finished-at="2023-01-26T03:33:14 EST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -102,18 +102,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tempTest -->
-        <test-method is-config="true" signature="screenshotAndDeleteCookies(org.testng.ITestResult)[pri:0, instance:com.artoftesting.test.SauceDemoLoginTest@5cdec700]" started-at="2021-02-08T12:19:48 IST" name="screenshotAndDeleteCookies" finished-at="2021-02-08T12:19:48 IST" duration-ms="14" status="PASS">
+        <test-method is-config="true" signature="screenshotAndDeleteCookies(org.testng.ITestResult)[pri:0, instance:com.artoftesting.test.SauceDemoLoginTest@265adfad]" started-at="2023-01-26T03:33:14 EST" name="screenshotAndDeleteCookies" finished-at="2023-01-26T03:33:14 EST" duration-ms="12" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=tempTest status=SUCCESS method=SauceDemoLoginTest.tempTest(java.lang.String, java.lang.String)[pri:0, instance:com.artoftesting.test.SauceDemoLoginTest@5cdec700] output={null}]]]>
+                <![CDATA[[TestResult name=tempTest status=SUCCESS method=SauceDemoLoginTest.tempTest(java.lang.String,java.lang.String)[pri:0, instance:com.artoftesting.test.SauceDemoLoginTest@265adfad] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenshotAndDeleteCookies -->
-        <test-method is-config="true" signature="suiteTearDown()[pri:0, instance:com.artoftesting.test.SauceDemoLoginTest@5cdec700]" started-at="2021-02-08T12:19:48 IST" name="suiteTearDown" finished-at="2021-02-08T12:19:49 IST" duration-ms="797" status="PASS">
+        <test-method is-config="true" signature="suiteTearDown()[pri:0, instance:com.artoftesting.test.SauceDemoLoginTest@265adfad]" started-at="2023-01-26T03:33:14 EST" name="suiteTearDown" finished-at="2023-01-26T03:33:14 EST" duration-ms="255" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteTearDown -->

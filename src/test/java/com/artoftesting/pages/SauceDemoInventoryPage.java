@@ -8,20 +8,17 @@ import org.openqa.selenium.support.PageFactory;
 public class SauceDemoInventoryPage {
 
 	WebDriver driver;
-	
-	@FindBy(css="div.product_label")
+
+	@FindBy(xpath = "(//div[@class='inventory_item_name'])[2]")
 	WebElement productLabel;
 
-	
 	public SauceDemoInventoryPage(WebDriver driver) {
 		this.driver = driver;
-        PageFactory.initElements(driver, this);
+		PageFactory.initElements(driver, this);
 	}
-	
-	
+
 	public String getProductLabel() {
 		return productLabel.getText();
 	}
-	
-	
+
 }
