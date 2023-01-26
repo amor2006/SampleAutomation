@@ -30,7 +30,7 @@ public class SauceDemoLoginTest extends TestBase {
 		String expectedProductLabel = "Sauce Labs Bike Light";
 		String actualProductLabel = inventoryPage.getProductLabel();
 
-		log.info("expectedProductLabel-" + expectedProductLabel + " and actualProductLabel - " + actualProductLabel);
+		log.info("expectedProductLabel - " + expectedProductLabel + " and actualProductLabel - " + actualProductLabel);
 		Assert.assertEquals(expectedProductLabel, actualProductLabel);
 	}
 

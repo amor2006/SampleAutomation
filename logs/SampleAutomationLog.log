@@ -1,0 +1,3 @@
+03:35:26.146 [main] INFO  com.artoftesting.test.SauceDemoLoginTest - Verifying successful login.
+03:35:26.168 [main] INFO  com.artoftesting.pages.SauceDemoLoginPage - Logging with username - standard_user  and password - secret_sauce
+03:35:26.550 [main] INFO  com.artoftesting.test.SauceDemoLoginTest - expectedProductLabel - Sauce Labs Bike Light and actualProductLabel - Sauce Labs Bike Light
